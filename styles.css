@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #123c69;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color: #EEE2dc;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  color: #ac3b61;
+  background-color: #edc7b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  Height: 300px;
+}
+
+h1{
+  font-size: 100px;
+  font-family: garamond;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-width: medium;
+  border-radius:100px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-grid-item {
+  width: 300px;
+  height: 20px;
+  margin: 50px;
+}
+
+
+p{
+  text-align: center;
+  font-family: courier;
+  font-size: 20px;
+  color:
+}
+
+.quote{
+  text-align: center;
+  font-family: courier;
+  font-size: 20px;
+  width: 75%;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+  color:
+}
+
+
+.pic{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text:hover{
+  font-size: 22px;
+}
+
+.login:hover{
+  font-size: 17px;
+}
+
+.signup:hover{
+  font-size: 17px;
+}
+
+.first-item {
+  order: 1;
+}
+
+.last-item {
+  order: -1;
+}
+
+.small-spacer{
+  height: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  background-color: #edc7b7;
+  height: 200px;
+}
+
+.signup {
+  margin-left: auto;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  .photo-grid {
+    width: 500px;
+  }
+  h1{
+    font-size: 70px;
+    font-family: garamond;
+  }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 1200px) {
+  .photo-grid {
+    width: 900px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1201px) {
+  .photo-grid {
+    width: 1500px;
+  }
+
+  .spacer{
+    height: 200px;
+  }
+
+  #advice{
+    height: 400px;
+  }
+}
